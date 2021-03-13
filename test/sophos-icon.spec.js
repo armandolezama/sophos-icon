@@ -4,7 +4,7 @@ import '../sophos-icon';
 
 describe('Suite cases', () => {
     it('First Test', async () => {
-        const _element = await fixture('<sophos-card></sophos-card>');
+        const _element = await fixture('<sophos-icon></sophos-icon>');
         const data = {
         iconText : 'Icon text',
         imageSource : './assets/contact-icon.png',
